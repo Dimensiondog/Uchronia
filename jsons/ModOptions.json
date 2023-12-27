@@ -1,0 +1,15 @@
+{
+    "constants":
+    {
+      "minimalCityDistance": 4,
+        "maxLakeSize": 5,
+        "riverCountMultiplier": 0.02,
+        "minRiverLength": 2,
+
+        "religionLimitBase": 0,
+        "religionLimitMultiplier": 1,
+        "pantheonBase": 15,
+        "pantheonGrowth": 0
+    },
+    "isBaseRuleset": true
+}
