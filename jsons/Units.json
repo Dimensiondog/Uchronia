@@ -1,0 +1,29 @@
+[
+	/* Always avaliable */
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [All] improvements on tiles", "Automation is a primary action"],
+		"cost": 70
+	},
+	{
+		"name": "Tribe",
+		"unitType": "Tribal",
+		"movement": 2,
+    "strength": 5,
+		"uniques": ["Can build [Tribal Claim] improvements on tiles", 
+      "Automation is a primary action",
+      "Free [Tribe] appears<upon defeating a [Barbarian] unit><before [20] turns>",
+    "Founds a new city<by consuming this unit><after [20] turns>"],
+	},
+  	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+]
